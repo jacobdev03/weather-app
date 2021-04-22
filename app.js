@@ -9,14 +9,12 @@ let wind = document.querySelector(".wind");
 let sunrise = document.querySelector(".sunrise");
 let sunset = document.querySelector(".sunset");
 let city = "Lomza";
-
 getWeather();
 
 form.addEventListener("submit", e => {
   city = input.value;
   console.log(city);
   getWeather();
-  form.reset();
   e.preventDefault();
 });
 
