@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-brand">
+        <span><i class="fas fa-cloud-sun"></i></span>
+        <h1>Weather App</h1>
+      </div>
+    </nav>
+    <form action="" class="search">
+      <div class="field">
+        <p class="control has-icons-left has-icons-right">
+          <input
+            class="input"
+            type="text"
+            placeholder="Enter a city"
+            value="Lomza"
+          />
+          <span class="icon is-small is-left">
+            <i class="fas fa-search"></i>
+          </span>
+        </p>
+      </div>
+    </form>
+    <div class="container">
+      <div class="card">
+        <div class="card-content">
+          <div class="content">
+            <h2 class="city-name">Lomza, <span class="country">PL</span></h2>
+            <p class="temp">15</p>
+            <p class="feels">13</p>
+            <p class="pressure">1023</p>
+            <p class="wind">1.4</p>
+            <p class="sunrise">7:03</p>
+            <p class="sunset">19:09</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/9f17aa6830.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
